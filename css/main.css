@@ -4,7 +4,7 @@
    Author's custom styles
    ========================================================================== */
 .clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
-.container{max-width:1024px;width:100%;height:768px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/mapV2.jpg) no-repeat;}
+.container{max-width:1024px;width:100%;height:768px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map2.png) no-repeat;}
 .cellWrapper{border:1px solid #999;}
 .cell{width:5.3%;height:8%;text-align:center;float:left;border:1px solid #999;}
 .cell img{width:100%;}
@@ -12,7 +12,7 @@
 
 /* Large desktop */
 @media (max-width: 1024px) {
-	.container{width:480px;height:320px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/mapV2-480.jpg) no-repeat;}
+	.container{width:480px;height:320px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map2-480.png) no-repeat;}
 	.cell{width:24px;height:24px;text-align:center;float:left;border:1px solid #999;}
 }
  
