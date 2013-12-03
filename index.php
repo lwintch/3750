@@ -251,7 +251,7 @@ include "./functions.php";
         <div class="cell"></div>
         <div class="cell"></div>
         <div class="cell"></div>
-        <div class="cell"></div>
+        <div class="cell"><img class="unitBlue" src="images/explosion.gif" /></div>
 	</div>
     <div class="buttonContainer">
         <button id="toggleGridOff">Grid Off</button>
