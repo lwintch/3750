@@ -13,4 +13,11 @@ $(function() {
 		$('.cell').css("border","1px solid #999");	
 	}); 
 
+	//Select map
+	$('#selectMap').click(function() {
+		// alert ("Made It");
+		var selectedMap = $('#map option:selected').text();	
+		$('.container').css('background','url(images/map' + selectedMap + '.png)'); 
+	}); 
+
 });

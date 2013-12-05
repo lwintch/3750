@@ -254,6 +254,12 @@ include "./functions.php";
         <div class="cell"><img class="unitBlue" src="images/explosion.gif" /></div>
 	</div>
     <div class="buttonContainer">
+        <select id="map">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <button id="selectMap">Select Map</button>
         <button id="toggleGridOff">Grid Off</button>
         <button id="toggleGridOn">Grid On</button>
     </div>
