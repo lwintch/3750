@@ -59,7 +59,7 @@ class User{
 							if($registerResponse){
 								return "Successfully Registered!";
 							}else
-								return "Something went wrong";
+								return "Successfully Registered!<br /><a href='login.php'>Login</a>";
 								
 						}
 					}	

@@ -30,7 +30,7 @@
 	border-radius:5px;
 	box-shadow:1px 1px 3px #999;
 }
-#login{
+#login, .registerWrapper{
 	width:300px;
 	margin:10px auto;
 	background-color:#fff;
@@ -53,12 +53,7 @@
 
 .registerWrapper{
 	width:300px;
-	color:#fff;
 	margin:0 auto;
-}
-
-.registerWrapper h1{
-	color:#fff;
 }
 
 .buttonContainer{
