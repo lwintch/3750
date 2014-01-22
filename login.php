@@ -20,6 +20,7 @@
 <body>
    <div id="login">
    	<form method="post" action="">
+         <h1>Login</h1>
    		<p>
    			<input type="text" placeholder="Username" name="username" />
    		</p>
@@ -30,6 +31,7 @@
    			<input type="submit" id="submit" class="btn btn-primary btn-sm" value="Login" name="submit" />
    		</p>
    	</form>
+      <p><a href="register.php">Register</a></p>
    	<?php if(isset($response)) echo "<h4 class='alert'>". $response  ."</h4>"; ?>
    </div><!-- /login-->
 </body>
