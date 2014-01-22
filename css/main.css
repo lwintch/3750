@@ -1,9 +1,17 @@
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-body{margin:0;padding:0;}
+/*
+ * ===========================================================
+ *
+ * ======================Global Styles======================== 
+ *
+ * ===========================================================
+ */
+ 
+ body{margin:0;padding:0;}
 .clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
-.container{max-width:1024px;width:100%;height:768px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map1.png) no-repeat;}
+.wrapper{width:1024px;margin:0 auto;}
+.nav-tabs{margin-top:15px;}
+.tab-content{padding-top:15px;}
+.mapContainer{max-width:1024px;width:100%;height:768px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map1.png) no-repeat;}
 .cellWrapper{border:1px solid #999;}
 .cell{width:5.3%;height:8%;text-align:center;float:left;border:1px solid #999;}
 .cell img{width:100%;}
@@ -11,8 +19,135 @@ body{margin:0;padding:0;}
 .topNavContainer{width:100%;height:20px;background-color:#ccc;}
 .topNavLinks{width:1024px;margin:0 auto;color:#fff;}
 .topNavLinks a{color:#fff;text-decoration:none;}
-#login{width:200px;margin:0 auto;background-color:#ccc;padding:10px;border:1px solid #000;}
-#register{width:400px;margin:0 auto;background-color:#ccc;padding:10px;border:1px solid #000;}
+.alert{
+	color:red;
+}
+
+#login{
+	width:300px;
+	margin:0 auto;
+	background-color:#ccc;
+	padding:10px;
+	border:1px solid #eee;
+	border-radius:5px;
+	box-shadow:1px 1px 1px #eee;
+}
+
+#login input{
+	width:100%;
+	border-radius:5px;
+	padding:5px;
+
+}
+
+#login #submit{
+	font-size:18px;
+}
+.buttonContainer{
+	width:100%;
+	margin-top:15px;
+}
+
+.buttonContainer .mapSelect{
+	width:300px;
+	float:left;
+}
+
+.buttonContainer .mapSelect select{
+	float:left;
+	width:200px;
+	margin-right:15px;
+}
+
+.buttonContainer .mapSelect button{
+	float:left;
+	margin-top:2px;
+}
+
+.buttonContainer .gridSelect{
+	width:300px;
+	float:right;
+	text-align:right;
+}
+/*
+ * ===========================================================
+ *
+ * ======================Scoreboard Styles==================== 
+ *
+ * ===========================================================
+ */
+.scoreboard {
+    width: 902px;
+    margin:0 auto;
+    display: block;
+}
+
+.scoreboard .bar {
+    border-style:groove;
+    border-width:1px;
+    border-color:#ccc;
+    box-shadow:1px 1px 1px #ccc;
+    text-align:center;
+    padding-left:0px;
+    padding-right:0px;
+    margin-bottom:10px;
+}
+
+.scoreboard .imgContainer{
+
+}
+
+.scoreboard .nameContainer{
+
+}
+
+.scoreboard .nameContainer{
+
+}
+
+.scoreboard .col{
+	width:300px;
+	padding:25px;
+	float:left;
+}
+
+.scoreboard p.player {
+    font-size:30px;
+    color:blue;
+    display:inline-block;
+}
+
+.scoreboard p.score {
+    font-size: 30px;
+    color: red;
+    display: inline-block;
+}
+
+.scoreboard img {
+    vertical-align:bottom;
+    margin-top:10px
+}
+/*
+ * ===========================================================
+ *
+ * =======================Register Styles===================== 
+ *
+ * ===========================================================
+ */
+#register{
+	width:400px;
+	margin:0 auto;
+	background-color:#ccc;
+	padding:10px;
+	border:1px solid #000;
+}
+/*
+ * ===========================================================
+ *
+ * ========================Media Queries====================== 
+ *
+ * ===========================================================
+ */
 /* Large desktop */
 @media (max-width: 1024px) {
 	.container{width:480px;height:320px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map1-480.png) no-repeat;}
@@ -27,8 +162,5 @@ body{margin:0;padding:0;}
  
 /* Landscape phones and down */
 @media (max-width: 480px) { ... }
-
-`
-
 
 

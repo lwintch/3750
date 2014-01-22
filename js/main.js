@@ -1,13 +1,13 @@
 //On Load
 $(function() {
 
-//Turn Grid Off
+	//Turn Grid Off
 	$('#toggleGridOff').click(function() {
 		// alert ("Made It");
 		$('.cell').css("border-color","transparent");	
 	}); 
 
-//Turn Grid On
+	//Turn Grid On
 	$('#toggleGridOn').click(function() {
 		// alert ("Made It");
 		$('.cell').css("border","1px solid #999");	
@@ -17,7 +17,13 @@ $(function() {
 	$('#selectMap').click(function() {
 		// alert ("Made It");
 		var selectedMap = $('#map option:selected').text();	
-		$('.container').css('background','url(images/map' + selectedMap + '.png)'); 
+		$('.mapContainer').css('background','url(images/map' + selectedMap + '.png)'); 
 	}); 
+
+	//Navigation selected content
+	$('#myTab a').click(function (e) {
+	  e.preventDefault()
+	  $(this).tab('show')
+	})
 
 });
