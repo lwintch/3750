@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require 'classes/mysql.php';
 
 class User{
@@ -26,7 +26,6 @@ class User{
 	}
 
 	function confirm_User(){
-		session_start();
 		if($_SESSION['status'] != 'authorized'){
 			header('location: login.php');
 		}

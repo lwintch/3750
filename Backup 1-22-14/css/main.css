@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{margin:0;padding:0;}
+.clearfix:after{visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.container{max-width:1024px;width:100%;height:768px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map1.png) no-repeat;}
+.cellWrapper{border:1px solid #999;}
+.cell{width:5.3%;height:8%;text-align:center;float:left;border:1px solid #999;}
+.cell img{width:100%;}
+.buttonContainer{width:130px;margin:0 auto;}
+.topNavContainer{width:100%;height:20px;background-color:#ccc;}
+.topNavLinks{width:1024px;margin:0 auto;color:#fff;}
+.topNavLinks a{color:#fff;text-decoration:none;}
+#login{width:200px;margin:0 auto;background-color:#ccc;padding:10px;border:1px solid #000;}
+#register{width:400px;margin:0 auto;background-color:#ccc;padding:10px;border:1px solid #000;}
+/* Large desktop */
+@media (max-width: 1024px) {
+	.container{width:480px;height:320px;padding:4px 0px 0px 6px;margin:0 auto;background:#fff url(../images/map1-480.png) no-repeat;}
+	.cell{width:24px;height:24px;text-align:center;float:left;border:1px solid #999;}
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { ... }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { ... }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { ... }
+
+`
+
+
+
